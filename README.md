@@ -6,20 +6,17 @@
 
 ### 🧠 Tecnologias que uso
 - Python (Pandas, NumPy, Matplotlib, BeautifulSoup, Requests)
-- SQL e MySQL
-- HTML, CSS, JavaScript, Bootstrap
-- Git, GitHub e Linux básico  
-
-### 📈 Projetos em Destaque
-- 🧩 [Analisador de Preços](https://github.com/gabrieldasilva88188/analisador-precos)
-- 🏢 [Analisador de Empresas (CNPJ)](https://github.com/gabrieldasilva88188/analisador-cnpj)
-- 🌿 [Sistema de Automação de Estufas](https://github.com/gabrieldasilva88188/TCC-Green-Hills)
+- SQL, MySQL, NoSQL
+- HTML, CSS, JavaScript, Bootstrap, React
+- Git e GitHub 
 
 📫 **Contato:** gabrieldasilva88188@gmail.com  
-💡 Você pode até colocar badges:
+
 
 markdown
 Copiar código
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-005C84?style=for-the-badge&logo=postgresql&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)
+![Gabriel's GitHub Stats](https://github-readme-stats.vercel.app/api?username=gabrieldasilva88188&show_icons=true&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=gabrieldasilva88188&layout=compact&theme=tokyonight)
