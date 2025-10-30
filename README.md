@@ -38,7 +38,7 @@
 
 ### 📫 Contato
 📧 **E-mail:** gabrieldasilva88188@gmail.com  
-🌐 **LinkedIn:** [linkedin.com/in/gabrieldasilva88188](https://linkedin.com/in/gabrieldasilva88188) *(adicione quando criar)*  
+🌐 **LinkedIn:** [linkedin.com/in/gabrieldasilva88188](www.linkedin.com/in/gabriel-silva-017512248)
 
 ---
 
