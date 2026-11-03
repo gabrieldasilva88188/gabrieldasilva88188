@@ -18,7 +18,7 @@
   <rect x=".5" y=".5" width="439" height="231" rx="13.5" fill="none" stroke="#2BD9A6" stroke-opacity=".35"/>
   <g transform="translate(24,22) scale(0.75)" fill="none" stroke="#2BD9A6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v16a2 2 0 0 0 2 2h16m-3-4V9m-5 8V5M8 17v-3"/></g>
   <text x="50" y="37" class="titulo">Estatísticas no GitHub</text>
-  <g class="linha" style="animation-delay:150ms"><g transform="translate(24,56) scale(0.6666666666666666)" fill="none" stroke="#2BD9A6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M3 12h6m6 0h6"/></g><text x="50" y="68" class="rotulo">Commits no último ano</text><text x="246" y="68" class="valor" text-anchor="end">40</text></g>
+  <g class="linha" style="animation-delay:150ms"><g transform="translate(24,56) scale(0.6666666666666666)" fill="none" stroke="#2BD9A6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M3 12h6m6 0h6"/></g><text x="50" y="68" class="rotulo">Commits no último ano</text><text x="246" y="68" class="valor" text-anchor="end">41</text></g>
   <g class="linha" style="animation-delay:240ms"><g transform="translate(24,83) scale(0.6666666666666666)" fill="none" stroke="#2BD9A6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><path d="M13 6h3a2 2 0 0 1 2 2v7M6 9v12"/></g><text x="50" y="95" class="rotulo">Pull requests</text><text x="246" y="95" class="valor" text-anchor="end">0</text></g>
   <g class="linha" style="animation-delay:330ms"><g transform="translate(24,110) scale(0.6666666666666666)" fill="none" stroke="#2BD9A6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="1"/><circle cx="12" cy="12" r="10"/></g><text x="50" y="122" class="rotulo">Issues</text><text x="246" y="122" class="valor" text-anchor="end">1</text></g>
   <g class="linha" style="animation-delay:420ms"><g transform="translate(24,137) scale(0.6666666666666666)" fill="none" stroke="#2BD9A6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v8l3-3l3 3V2"/><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20"/></g><text x="50" y="149" class="rotulo">Repositórios</text><text x="246" y="149" class="valor" text-anchor="end">20</text></g>
@@ -30,7 +30,7 @@
     <circle cx="0" cy="118" r="52" fill="none" stroke="#2BD9A6" stroke-width="6" stroke-linecap="round" stroke-dasharray="327" stroke-dashoffset="0" transform="rotate(-90 0 118)">
       <animate attributeName="stroke-dashoffset" from="327" to="0" dur="1.2s" fill="freeze"/>
     </circle>
-    <text x="0" y="124" class="grande" text-anchor="middle">47</text>
+    <text x="0" y="124" class="grande" text-anchor="middle">48</text>
     <text x="0" y="142" class="pequeno" text-anchor="middle">contribuições</text>
     <text x="0" y="196" class="pequeno" text-anchor="middle">no último ano · desde 2022</text>
   </g>
