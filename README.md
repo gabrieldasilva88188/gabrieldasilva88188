@@ -31,7 +31,7 @@
 
 ## <img src="assets/icons/user.svg" width="24" height="24" /> Sobre mim
 
-<img align="right" width="420" src="https://raw.githubusercontent.com/gabrieldasilva88188/gabrieldasilva88188/output/stats.svg" alt="Estatísticas do GitHub" />
+<img align="right" width="420" src="assets/gerado/stats.svg" alt="Estatísticas do GitHub" />
 
 Sou desenvolvedor com foco em **Python, pipelines de ETL e análise de dados**. Gosto de pegar dados brutos e espalhados, organizá-los e transformá-los em informação confiável, que ajude alguém a tomar uma decisão melhor.
 
@@ -167,14 +167,14 @@ Duas ou três frases sobre o problema que o projeto resolve, de onde vêm os dad
 <div align="center">
 
 <img height="180" src="https://streak-stats.demolab.com?user=gabrieldasilva88188&locale=pt_BR&hide_border=true&background=0d1117&ring=2BD9A6&fire=2BD9A6&currStreakLabel=2BD9A6&sideLabels=c9d1d9&currStreakNum=ffffff&sideNums=ffffff&dates=8b949e&stroke=30363d" alt="Sequência de contribuições" />
-<img height="180" src="https://raw.githubusercontent.com/gabrieldasilva88188/gabrieldasilva88188/output/top-langs.svg" alt="Linguagens mais usadas" />
+<img height="180" src="assets/gerado/top-langs.svg" alt="Linguagens mais usadas" />
 
 <br/><br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gabrieldasilva88188/gabrieldasilva88188/output/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gabrieldasilva88188/gabrieldasilva88188/output/snake.svg" />
-  <img alt="Cobrinha percorrendo o gráfico de contribuições" src="https://raw.githubusercontent.com/gabrieldasilva88188/gabrieldasilva88188/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gabrieldasilva88188/gabrieldasilva88188/main/assets/gerado/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gabrieldasilva88188/gabrieldasilva88188/main/assets/gerado/snake.svg" />
+  <img alt="Cobrinha percorrendo o gráfico de contribuições" src="assets/gerado/snake-dark.svg" />
 </picture>
 
 </div>

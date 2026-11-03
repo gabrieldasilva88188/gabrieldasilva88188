@@ -6,10 +6,12 @@ on:
     - cron: "0 */12 * * *"
   # permite rodar manualmente pela aba Actions
   workflow_dispatch:
-  # roda a cada push na branch principal
+  # roda quando o README ou os scripts mudam
   push:
     branches:
       - main
+    paths-ignore:
+      - "assets/gerado/**"
 
 concurrency:
   group: perfil
@@ -41,13 +43,18 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # publica tudo na branch "output"
-      # endereço: https://raw.githubusercontent.com/<usuario>/<usuario>/output/<arquivo>
-      - name: Publicar na branch output
-        uses: crazy-max/ghaction-github-pages@v5
-        with:
-          target_branch: output
-          build_dir: dist
-          jekyll: false
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # salva os SVGs em assets/gerado na própria branch main.
+      # O README usa caminhos relativos, que o GitHub sempre carrega sem cache externo.
+      - name: Salvar cards no repositório
+        run: |
+          mkdir -p assets/gerado
+          cp dist/*.svg assets/gerado/
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/gerado
+          if git diff --cached --quiet; then
+            echo "Nada mudou nos cards."
+          else
+            git commit -m "chore: atualizar cards do perfil"
+            git push
+          fi

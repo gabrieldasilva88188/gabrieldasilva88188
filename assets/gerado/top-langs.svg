@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="232" viewBox="0 0 440 232" role="img" aria-label="Linguagens mais usadas">
+  <title>Linguagens mais usadas</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#161b22"/></linearGradient>
+    <radialGradient id="glow" cx="1" cy="0" r=".9"><stop offset="0" stop-color="#2BD9A6" stop-opacity=".15"/><stop offset="1" stop-color="#2BD9A6" stop-opacity="0"/></radialGradient>
+  </defs>
+  <style>
+    .titulo { font: 700 16px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #ffffff; }
+    .rotulo { font: 400 13.5px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #c9d1d9; }
+    .valor { font: 700 13.5px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #ffffff; }
+    .grande { font: 800 26px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #ffffff; }
+    .pequeno { font: 400 12px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #8b949e; }
+    .linha { animation: entrar .5s ease-out backwards; }
+    @keyframes entrar { from { opacity: 0; transform: translateX(-6px) } to { opacity: 1; transform: none } }
+  </style>
+  <rect width="440" height="232" rx="14" fill="url(#bg)"/>
+  <rect width="440" height="232" rx="14" fill="url(#glow)"/>
+  <rect x=".5" y=".5" width="439" height="231" rx="13.5" fill="none" stroke="#2BD9A6" stroke-opacity=".35"/>
+  <g transform="translate(24,22) scale(0.75)" fill="none" stroke="#2BD9A6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 16l4-4l-4-4M6 8l-4 4l4 4m8.5-12l-5 16"/></g>
+  <text x="50" y="37" class="titulo">Linguagens mais usadas</text>
+  <clipPath id="barra"><rect x="24" y="56" width="392" height="10" rx="5"/></clipPath>
+  <rect x="24" y="56" width="392" height="10" rx="5" fill="#30363d"/>
+  <g clip-path="url(#barra)"><rect x="24.00" y="56" width="337.75" height="10" fill="#4F5D95"/><rect x="361.75" y="56" width="15.19" height="10" fill="#663399"/><rect x="376.94" y="56" width="11.46" height="10" fill="#f1e05a"/><rect x="388.39" y="56" width="5.97" height="10" fill="#c6538c"/><rect x="394.37" y="56" width="5.74" height="10" fill="#1d365d"/><rect x="400.11" y="56" width="5.29" height="10" fill="#e34c26"/><rect x="405.40" y="56" width="4.84" height="10" fill="#7355dd"/><rect x="410.25" y="56" width="4.77" height="10" fill="#3178c6"/></g>
+  <g class="linha" style="animation-delay:150ms"><circle cx="29" cy="92" r="5" fill="#4F5D95"/><text x="42" y="96" class="rotulo">PHP</text><text x="214" y="96" class="valor" text-anchor="end">86,2%</text></g>
+  <g class="linha" style="animation-delay:220ms"><circle cx="231" cy="92" r="5" fill="#663399"/><text x="244" y="96" class="rotulo">CSS</text><text x="416" y="96" class="valor" text-anchor="end">3,9%</text></g>
+  <g class="linha" style="animation-delay:290ms"><circle cx="29" cy="120" r="5" fill="#f1e05a"/><text x="42" y="124" class="rotulo">JavaScript</text><text x="214" y="124" class="valor" text-anchor="end">2,9%</text></g>
+  <g class="linha" style="animation-delay:360ms"><circle cx="231" cy="120" r="5" fill="#c6538c"/><text x="244" y="124" class="rotulo">SCSS</text><text x="416" y="124" class="valor" text-anchor="end">1,5%</text></g>
+  <g class="linha" style="animation-delay:430ms"><circle cx="29" cy="148" r="5" fill="#1d365d"/><text x="42" y="152" class="rotulo">Less</text><text x="214" y="152" class="valor" text-anchor="end">1,5%</text></g>
+  <g class="linha" style="animation-delay:500ms"><circle cx="231" cy="148" r="5" fill="#e34c26"/><text x="244" y="152" class="rotulo">HTML</text><text x="416" y="152" class="valor" text-anchor="end">1,4%</text></g>
+  <g class="linha" style="animation-delay:570ms"><circle cx="29" cy="176" r="5" fill="#7355dd"/><text x="42" y="180" class="rotulo">C#</text><text x="214" y="180" class="valor" text-anchor="end">1,2%</text></g>
+  <g class="linha" style="animation-delay:640ms"><circle cx="231" cy="176" r="5" fill="#3178c6"/><text x="244" y="180" class="rotulo">TypeScript</text><text x="416" y="180" class="valor" text-anchor="end">1,2%</text></g>
+</svg>
