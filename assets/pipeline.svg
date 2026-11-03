@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="210" viewBox="0 0 880 210" role="img" aria-label="Meu fluxo de trabalho com dados: extrair, transformar, carregar e analisar">
+  <title>Meu fluxo de trabalho com dados: extrair, transformar, carregar e analisar</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#161b22"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy="0" r=".8">
+      <stop offset="0" stop-color="#2BD9A6" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#2BD9A6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity=".05"/>
+    </pattern>
+  </defs>
+  <style>
+    .kicker { font: 700 12px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; letter-spacing: 3px; fill: #2BD9A6; }
+    .step { font: 700 16px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #ffffff; }
+    .desc { font: 400 12.5px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #8b949e; }
+    .flow { stroke-dasharray: 6 6; animation: flow 1.2s linear infinite; }
+    @keyframes flow { to { stroke-dashoffset: -12; } }
+    .node { animation: in .6s ease-out backwards; }
+    @keyframes in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+  </style>
+
+  <rect width="880" height="210" rx="18" fill="url(#bg)"/>
+  <rect width="880" height="210" rx="18" fill="url(#dots)"/>
+  <rect width="880" height="210" rx="18" fill="url(#glow)"/>
+  <rect x=".5" y=".5" width="879" height="209" rx="17.5" fill="none" stroke="#2BD9A6" stroke-opacity=".3"/>
+
+  <text x="440" y="38" class="kicker" text-anchor="middle">DO DADO BRUTO À DECISÃO</text>
+
+  <!-- conexões -->
+  <g stroke="#2BD9A6" stroke-opacity=".7" stroke-width="2" fill="none">
+    <path class="flow" d="M191 100H261"/>
+    <path class="flow" d="M401 100H471"/>
+    <path class="flow" d="M611 100H681"/>
+  </g>
+  <g fill="#2BD9A6">
+    <path d="M261 95l8 5l-8 5z"/>
+    <path d="M471 95l8 5l-8 5z"/>
+    <path d="M681 95l8 5l-8 5z"/>
+  </g>
+
+  <!-- 1. Extrair -->
+  <g class="node" style="animation-delay:.1s">
+    <rect x="59" y="66" width="132" height="68" rx="14" fill="#0d1117" stroke="#2BD9A6" stroke-opacity=".45"/>
+    <g transform="translate(113,78)" fill="none" stroke="#2BD9A6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20a14.5 14.5 0 0 0 0-20M2 12h20"/></g>
+    <text x="125" y="124" class="step" text-anchor="middle" style="font-size:14px">Extrair</text>
+    <text x="125" y="160" class="desc" text-anchor="middle">APIs, web scraping</text>
+    <text x="125" y="177" class="desc" text-anchor="middle">e planilhas</text>
+  </g>
+
+  <!-- 2. Transformar -->
+  <g class="node" style="animation-delay:.3s">
+    <rect x="269" y="66" width="132" height="68" rx="14" fill="#0d1117" stroke="#2BD9A6" stroke-opacity=".45"/>
+    <g transform="translate(323,78)" fill="none" stroke="#2BD9A6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 20a1 1 0 0 0 .553.895l2 1A1 1 0 0 0 14 21v-7a2 2 0 0 1 .517-1.341L21.74 4.67A1 1 0 0 0 21 3H3a1 1 0 0 0-.742 1.67l7.225 7.989A2 2 0 0 1 10 14z"/></g>
+    <text x="335" y="124" class="step" text-anchor="middle" style="font-size:14px">Transformar</text>
+    <text x="335" y="160" class="desc" text-anchor="middle">Limpeza e padronização</text>
+    <text x="335" y="177" class="desc" text-anchor="middle">com Pandas e NumPy</text>
+  </g>
+
+  <!-- 3. Carregar -->
+  <g class="node" style="animation-delay:.5s">
+    <rect x="479" y="66" width="132" height="68" rx="14" fill="#0d1117" stroke="#2BD9A6" stroke-opacity=".45"/>
+    <g transform="translate(533,78)" fill="none" stroke="#2BD9A6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5V19A9 3 0 0 0 21 19V5"/><path d="M3 12A9 3 0 0 0 21 12"/></g>
+    <text x="545" y="124" class="step" text-anchor="middle" style="font-size:14px">Carregar</text>
+    <text x="545" y="160" class="desc" text-anchor="middle">Modelagem e consultas</text>
+    <text x="545" y="177" class="desc" text-anchor="middle">em SQL e MySQL</text>
+  </g>
+
+  <!-- 4. Analisar -->
+  <g class="node" style="animation-delay:.7s">
+    <rect x="689" y="66" width="132" height="68" rx="14" fill="#2BD9A6" fill-opacity=".1" stroke="#2BD9A6" stroke-opacity=".8"/>
+    <g transform="translate(743,78)" fill="none" stroke="#2BD9A6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v16a2 2 0 0 0 2 2h16m-3-4V9m-5 8V5M8 17v-3"/></g>
+    <text x="755" y="124" class="step" text-anchor="middle" style="font-size:14px">Analisar</text>
+    <text x="755" y="160" class="desc" text-anchor="middle">Gráficos, relatórios</text>
+    <text x="755" y="177" class="desc" text-anchor="middle">e interfaces web</text>
+  </g>
+</svg>
